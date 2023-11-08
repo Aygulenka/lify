@@ -38,7 +38,8 @@ class LifecycleComponent extends React.Component {
         }));
     }
     shouldComponentUpdate(nextProps, nextState) {
-        return nextState.count % 2 === 0
+       return nextState.count % 2 === 0
+  
     }
 
     componentDidUpdate() {
